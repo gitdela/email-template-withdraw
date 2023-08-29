@@ -1,0 +1,95 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class
+        name="biggest-heading"
+        font-size="18px"
+        font-weight="bold"
+        color="#1C1EB5"
+      />
+      <mj-class
+        name="paragraph"
+        font-size="15px"
+        font-weight="semi-bold"
+        color=""
+      />
+      <mj-text line-height="20px" font-family="Tahoma" />
+    </mj-attributes>
+    <mj-title>Mybitstore</mj-title>
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#dcecff">
+      <mj-column
+        ><mj-image
+          width="200px"
+          src="https://www.mybitstore.com/_next/static/media/mbs-logo.2592356a.svg"
+          align="center"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-wrapper padding="0px 10px 20px 10px">
+      <mj-section
+        ><mj-column>
+          <mj-text mj-class="biggest-heading" align="center"
+            >Crypto Withdrawal Receipt</mj-text
+          >
+          <mj-divider
+            border-color="#dcecff"
+            border-width="1px"
+            padding="10px 20px"
+          ></mj-divider>
+          <mj-text
+            ><p>Hi {Customer Name},</p>
+            <p>
+              We're reaching out to confirm the recent withdrawal of
+              cryptocurrency from your Mybitstore account. Your trust in
+              Mybitstore is greatly appreciated, and we're here to ensure a
+              secure and hassle-free experience for your transactions.
+            </p>
+          </mj-text>
+          <mj-text>Here are the details of your withdrawal:</mj-text>
+          <mj-text>
+            <p>Transaction ID: {Transaction ID}</p>
+            <p>Date and Time: {Date and Time of Withdrawal}</p>
+            <p>Amount Withdrawn: {Amount and Currency Withdrawn}</p>
+            <p>
+              Destination Wallet Address: {Destination Wallet Address}
+            </p></mj-text
+          >
+          <mj-text align="center"
+            ><p>
+              If you need assistance, please don't hesitate to contact us at
+              <a href="tel:+233508637998">+233508637998</a>
+            </p>
+            <p>
+              Or send an email via
+              <a href="mailto:support@mybitstore.com"
+                >support@mybitstore.com
+              </a>
+            </p></mj-text
+          >
+        </mj-column></mj-section
+      >
+      <mj-section>
+        <mj-column>
+          <mj-divider
+            border-color="#dcecff"
+            border-width="1px"
+            padding="10px 20px"
+          ></mj-divider>
+          <mj-text align="center"
+            ><a
+              href="https://apps.apple.com/us/app/mybitstore-buy-sell-bitcoin/id1579519877"
+              target="_blank"
+              ><img width="120px" src="./app-store.webp"
+            /></a>
+            <a
+              href="https://play.google.com/store/apps/details?id=app.mybitstore.com"
+              target="_blank"
+              ><img width="120px" src="./google-play.webp" /></a
+          ></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
